@@ -5,7 +5,7 @@ module "network" {
   version = "2.5.0"
   # insert required variables here
   network_name = "bstearns-network"
-  project_id = var.project_id
+  project_id = var.project
   subnets = [
   {
     subnet_name   = "bstearns-subnet"
